@@ -1,0 +1,17 @@
+act,act1,equip,trip,vehicle,park_trip_pct
+mtr,boat,139,797,156,0.523
+mtr,motorcycle,443,1689,153,0.523
+mtr,off_road,285,949,124,0.523
+mtr,rv,344,2203,445,0.523
+mtr,snowmobile,186,1326,75,0.523
+nmtr,alpine,559,2857,27,0.523
+nmtr,camp,224,1446,46,0.523
+nmtr,hike,107,1167,33,0.523
+nmtr,horse,325,1763,21,0.523
+nmtr,mountain,251,1632,40,0.523
+nmtr,nordic,245,1178,45,0.523
+nmtr,paddle,278,1449,54,0.523
+nmtr,run,200,1818,25,0.523
+nmtr,sail,333,1532,23,0.523
+nmtr,scuba,423,2723,13,0.523
+nmtr,wheel,243,1654,34,0.523
