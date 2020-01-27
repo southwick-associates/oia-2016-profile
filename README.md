@@ -1,7 +1,7 @@
 
 # Overview
 
-Example code for producing OIA-based spending profiles for use in downstream calculations.
+Code for producing OIA-based spending profiles for use in downstream calculations.
 
 # Usage
 
@@ -20,7 +20,7 @@ OIA spending profiles are pulled from the OIA results data: "E:/SA/Data-producti
 This project was setup using package [saproj](https://github.com/southwick-associates/saproj) with a [Southwick-specific R Setup](https://github.com/southwick-associates/R-setup). Certain files shouldn't be edited by hand:
 
 - .Rprofile             specifies R version and project library
-- snapshot-library.csv  details project-specific packages (if they exist)
+- snapshot-library.csv  details project-specific packages
 
 ## Old Packages on Server
 
