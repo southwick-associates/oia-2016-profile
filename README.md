@@ -1,9 +1,9 @@
 
 # Overview
 
-Code for producing OIA-based spending profiles for use in downstream calculations.
+Code for producing OIA-based spending profiles for use in downstream calculations. Using OIA 2016 survey data [documented on O365](https://southwickassociatesinc.sharepoint.com/:w:/s/oia2016-001recreationeconreport/EdZ4EMXUfXtKsEurnqCqlbcBbxarVPTtLkyCNiYti18vUA?e=zvmc87).
 
-# Usage
+## Usage
 
 Analysis can be reproduced with `source("code/run.R")` and includes two parts:
 
@@ -11,16 +11,12 @@ Analysis can be reproduced with `source("code/run.R")` and includes two parts:
 
 - Estimating profiles for use in projects using "average activity spending per participant" for trip, equip, and vehicle (by item).
 
-# Data
+## Software Environment
 
-OIA spending profiles are pulled from the OIA results data: "E:/SA/Data-production/OIA_Rec_Econ_2016/Results/results.RDATA". A data dictionary is stored alongside that file.
+This project was setup using package [saproj](https://github.com/southwick-associates/saproj) with a [Southwick-specific R Setup](https://github.com/southwick-associates/R-setup). Two files shouldn't be edited by hand:
 
-# Software Environment
-
-This project was setup using package [saproj](https://github.com/southwick-associates/saproj) with a [Southwick-specific R Setup](https://github.com/southwick-associates/R-setup). Certain files shouldn't be edited by hand:
-
-- .Rprofile             specifies R version and project library
-- snapshot-library.csv  details project-specific packages
+- `.Rprofile` specifies R version and project library
+- `snapshot-library.csv` details project-specific packages
 
 ## Old Packages on Server
 

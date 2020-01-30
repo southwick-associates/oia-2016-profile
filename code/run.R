@@ -11,6 +11,7 @@ run_script <- function(script_name, script_dir = "1-ngpc-profiles") {
 
 # get participation rates for activity groups
 # using OIA survey data
+source("code/0-act1-participation/0-prep-oia-svy.R")
 source("code/0-act1-participation/1-part-rates-act1.R")
 
 # get profiles for use in NGPC
