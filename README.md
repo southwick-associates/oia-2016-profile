@@ -20,10 +20,11 @@ This project was setup using package [saproj](https://github.com/southwick-assoc
 
 ## Old Packages on Server
 
-These were used for the OIA 2016 analysis; installed here for estimating activity-group level (act1) participation rates.
+These were used for the OIA 2016 analysis; installed here for estimating activity-group level (act1) participation rates. The package binary files are available on the server (E:/SA/Projects/R-Software/Southwick-packages/_builds_binary/) and were copied here for convenience.
+
+Installing:
 
 ```r
-dir <- "E:/SA/Projects/R-Software/Southwick-packages/_builds_binary"
-install.packages(file.path(dir, "tablr2_0.2.zip"), repos = NULL, type = "win.binary")
-install.packages(file.path(dir, "gizmoTamer_0.1.7.zip"), repos = NULL, type = "win.binary")
+install.packages("ref/tablr2_0.2.zip", repos = NULL, type = "win.binary")
+install.packages("ref/gizmoTamer_0.1.7.zip", repos = NULL, type = "win.binary")
 ```
