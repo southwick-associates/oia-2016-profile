@@ -1,7 +1,7 @@
 
-# Overview
+## Overview
 
-Code for producing OIA-based spending profiles for use in downstream calculations. Using OIA 2016 survey data [documented on O365](https://southwickassociatesinc.sharepoint.com/:w:/s/oia2016-001recreationeconreport/EdZ4EMXUfXtKsEurnqCqlbcBbxarVPTtLkyCNiYti18vUA?e=zvmc87).
+Code for producing OIA-based spending profiles for use in downstream calculations. Using OIA 2016 survey data documented on [O365 > OIA 2016 > Analysis Resources](https://southwickassociatesinc.sharepoint.com/:w:/s/oia2016-001recreationeconreport/EdZ4EMXUfXtKsEurnqCqlbcBbxarVPTtLkyCNiYti18vUA?e=zvmc87).
 
 ## Usage
 
@@ -18,11 +18,11 @@ This project was setup using package [saproj](https://github.com/southwick-assoc
 - `.Rprofile` specifies R version and project library
 - `snapshot-library.csv` details project-specific packages
 
-## Old Packages on Server
+### Old Packages on Server
 
-These were used for the OIA 2016 analysis; installed here for estimating activity-group level (act1) participation rates. The package binary files are available on the server (E:/SA/Projects/R-Software/Southwick-packages/_builds_binary/) and were copied here for convenience.
+These were used for the OIA 2016 analysis; installed here for estimating activity-group level (act1) participation rates. The packages are stored on the server (E:/SA/Projects/R-Software/Southwick-packages/_builds_binary/) and were copied here for convenience.
 
-Installing:
+#### Installing
 
 ```r
 install.packages("ref/tablr2_0.2.zip", repos = NULL, type = "win.binary")
