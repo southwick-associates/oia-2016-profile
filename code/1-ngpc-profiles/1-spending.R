@@ -4,7 +4,7 @@
 library(tidyverse)
 library(readxl)
 
-load("E:/SA/Data-production/OIA_Rec_Econ_2016/Results/results.RDATA") # out, stat, tot
+load("data/results.RDATA") # out, stat, tot
 part_act1 <- readRDS("data-work/part-rate-act1.rds")
 
 # Trip & Equipment ----------------------------------------------------------
@@ -31,7 +31,7 @@ equip <- tot$equip_all %>%
 # Vehicle -----------------------------------------------------------------
 
 # an additional table is needed to summarize by activity category (act1)
-f <- "E:/SA/Data-production/OIA_Rec_Econ_2016/Results/Vehicle_act1.xlsx"
+f <- "data/Vehicle_act1.xlsx"
 vehicle_categories <- read_excel(f, sheet = "vehicle_act1") %>%
     select(act, act1, act_vehicle_all)
 

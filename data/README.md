@@ -6,3 +6,4 @@ OIA data available from [O365 > OIA 2016 > Analysis Resources & Documentation](h
 - Activities.xlsx: activity metadata
 - results.RDATA: 2016 results
 - svy-wtd.RDATA: final svy data
+- Vehicle_act1.xlsx: vehicle spending relation table for activity groups
